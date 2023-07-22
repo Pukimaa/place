@@ -18,8 +18,8 @@ if (window.top !== window.self) {
         overlayImage = document.createElement("img");
         placedeImage = document.createElement("img");
         updateImage();
-        overlayImage.style = `position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1000px;pointerEvents: 'none';`;
-        placedeImage.style = `position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1000px;pointerEvents: 'none';`;
+        overlayImage.style = `position: absolute;left: 0;top: 500px;image-rendering: pixelated;width: 2000px;height: 1000px;pointerEvents: 'none';`;
+        placedeImage.style = `position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1500px;pointerEvents: 'none';`;
         canvasContainer.appendChild(overlayImage);
         canvasContainer.appendChild(placedeImage);
     }, false);
