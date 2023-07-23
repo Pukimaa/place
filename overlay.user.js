@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/place overlays
 // @namespace    http://tampermonkey.net/
-// @version      1.2.0
+// @version      1.2.1
 // @description  try to take over the canvas!
 // @author       Pukima
 // @match        https://garlic-bread.reddit.com/embed*
@@ -22,7 +22,7 @@ if (window.top !== window.self) {
         pukimaImage = document.createElement("img");
         updateImage();
         overlayImage.style = `position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1500px;pointerEvents: 'none';`;
-        placedeImage.style = `position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1500px;pointerEvents: 'none';`;
+        placedeImage.style = `position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 2000px;pointerEvents: 'none';`;
         pukimaImage.style = `position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1500px;pointerEvents: 'none';`;
         canvasContainer.appendChild(overlayImage);
         canvasContainer.appendChild(placedeImage);
