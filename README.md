@@ -19,3 +19,10 @@ A userscript for overlays on top of r/place
 
 ### 👀 Preview
 ![Preview of the Overlay](https://i.imgur.com/DwHL9ln.png)
+
+### ♥️ Credits
+Original Code: [PlaceDE-Official/place-overlay](https://github.com/PlaceDE-Official/place-overlay)
+
+Toggle Overlay Button: [FlashSkyNews/place-overlay](https://github.com/FlashSkyNews/place-overlay)
+
+Tool to create overlays: [PlaceDE-Official/pixel](https://github.com/PlaceDE-Official/pixel) 
