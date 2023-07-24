@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/place overlays
 // @namespace    http://tampermonkey.net/
-// @version      1.3.0
+// @version      1.4.0
 // @description  try to take over the canvas!
 // @author       Pukima
 // @match        https://garlic-bread.reddit.com/embed*
